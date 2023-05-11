@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+#contentContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+#cart {
+  margin-bottom: 30px;
+}
+
+#ng {
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 15px solid hotpink;
+}
+
+#welcome {
+  height: 100px; /* set the height to whatever you want */
+  font-size: 72px;
+  text-align: center;
+  text-decoration: double underline overline rgb(141, 6, 175);
+  color: hotpink;
+}
+
+#errorMessage {
+  color: red;
+  font-size: 24px;
+}
+
+/* Style for the product cards */
+/* #productCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+} */
+
+/* Style for each product card */
+#productCards div {
+  border: 5px solid hotpink;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 175px;
+  font-size: 24px;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+}
+
+/* Style for each product image */
+#productCards div img {
+  max-width: 100%;
+  max-height: 75px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Style for the product name */
+#productCards div h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Style for the product price */
+#productCards div h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Style for the add to cart buttons */
+#productCards button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* #productCards button:hover {
+  scale: 1.1;
+  color: red;
+  background: pink;
+  border: 5px orange solid;
+} */
+
+/* Style for the product amounts */
+#addToCartDiv h1 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Style for the shopping cart icon */
+#addToCartDiv a img {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Style for the item counter */
+#itemCounter {
+  font-weight: bold;
+}
+
+/* Style for the candy amount */
+#candyAmount {
+  color: blue;
+}
+
+/* Style for the chips amount */
+#chipsAmount {
+  color: green;
+}
+
+/* Style for the cookie amount */
+#cookieAmount {
+  color: purple;
+}
+
+/* Style for the gum amount */
+#gumAmount {
+  color: orange;
+}
+
+/* Style for the soda amount */
+#sodaAmount {
+  color: red;
+}
+
+#cart {
+  width: 100px;
+}
+/* Style for the heading */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style for the item containers */
+#items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style for each item container */
+#items div {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style for the empty cart button */
+#emptyButton {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for the item counter */
+#itemCounter {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style for the cart list */
+#cartList {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the total price */
+#totalPrice {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the complete purchase button */
+#purchaseBtn {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+gum {
+  text-align: "center";
+}

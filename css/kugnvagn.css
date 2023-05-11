@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+img {
+  width: 75px;
+  text-align: center;
+}
+
+#items {
+  text-align: center;
+  /* border: solid 3px hotpink; */
+}
+
+#hr {
+  border: solid 2px hotpink;
+}
+
+#itemCounter {
+  text-align: center;
+}
+
+#errorMessage {
+  color: red;
+  text-decoration: line-through;
+}
